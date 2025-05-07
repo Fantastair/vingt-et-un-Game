@@ -3,6 +3,7 @@
 
 void Game_Init(void);
 void Game_Release(void);
+
 void Game_Start(void);
 void Game_End(void);
 

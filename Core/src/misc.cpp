@@ -201,6 +201,11 @@ void GetPlayerPos(int player_num, float &x, float &y)
     y = player_pos[GetPlayerNumSetting() - 1][player_num][1];
 }
 
+/**
+ * @brief 随机整数
+ * @param min 最小值
+ * @param max 最大值
+ */
 int MyRandomInt(int min, int max)
 {
     int result = rand();
